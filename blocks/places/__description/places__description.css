@@ -1,0 +1,36 @@
+.places__description {
+  margin: 0;
+  position: relative;
+  display: flex;
+  column-gap: 40px;
+  max-width: 984px;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.places__description:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__description {
+    max-width: 928px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__description {
+    max-width: 720px;
+    column-gap: 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__description {
+    flex-direction: column;
+    max-width: 320px;
+    padding-bottom: 50px;
+  }
+}
