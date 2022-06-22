@@ -1,4 +1,4 @@
-.section-title {
+.lead__title {
   margin: 0 auto;
   font-family: "Inter";
   font-style: normal;
@@ -9,27 +9,20 @@
   max-width: 720px;
   height: 200px;
   width: 100%;
+  padding-top: 56px;
 }
 
-@media all and (max-width: 1279px) {
-  .section-title {
-    margin: 0 auto;
+@media screen and (max-width: 1279) {
+  .lead__title {
+    padding-top: 48px;
   }
 }
-
-@media all and (max-width: 1023px) {
-  .section-title {
-    margin: 0 auto;
-  }
-}
-
 
 @media all and (max-width: 767px) {
-  .section-title {
+  .lead__title {
     font-size: 40px;
     line-height: 44px;
-    width: 288px;
+    max-width: 288px;
     height: 88px;
-    margin: 0 auto;
   }
 }
