@@ -13,7 +13,7 @@
 }
 
 .header__link_active {
-  text-decoration: underline;
+  border-bottom: 1px solid white;
 }
 
 @media screen and (max-width: 767px) {
