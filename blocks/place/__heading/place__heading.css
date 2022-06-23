@@ -1,27 +1,29 @@
-.intro {
+.place__heading {
+  display: flex;
+  column-gap: 40px;
+  margin: 0 auto;
   max-width: 984px;
   width: 100%;
-  padding-top: 92px;
-  margin: 0 auto;
-  text-align: left;
 }
 
 @media screen and (max-width: 1279px) {
-  .intro {
+  .place__heading {
+    column-gap: 32px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .intro {
-    padding-top: 88px;
+  .place__heading {
+    column-gap: 28px;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro {
-    padding-top: 64px;
+  .place__heading {
     max-width: 288px;
+    flex-direction: column;
+    row-gap: 32px;
   }
 }

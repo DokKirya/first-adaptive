@@ -1,12 +1,8 @@
 .lead__illustration { 
-  margin-top: 64px ;
+  margin-top: 64px;
   max-width: 984px;
   width: 100%;
   height: 615px;
-  background-image: url('../../images/lead-window.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 @media screen and (max-width: 1279px) {

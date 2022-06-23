@@ -1,7 +1,6 @@
 .header__links {
   display: flex;
   gap: 18px;
-  height: 28px;
   list-style-type: none;
   margin: 0;
   padding-bottom: 6px;
@@ -10,7 +9,6 @@
 
 @media screen and (max-width: 767px) {
   .header__links {
-    height: 20px;
     padding-bottom: 8px;
   }
 }

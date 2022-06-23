@@ -1,29 +1,19 @@
 .place {
-  display: flex;
-  column-gap: 40px;
-  margin: 0 auto;
-  max-width: 984px;
-  width: 100%;
+  padding-bottom: 80px;
 }
 
-@media screen and (max-width: 1279px) {
-  .place {
-    column-gap: 32px;
-    max-width: 928px;
-  }
+.place:last-of-type {
+  padding: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .place {
-    column-gap: 28px;
-    max-width: 720px;
+    padding-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
-    max-width: 288px;
-    flex-direction: column;
-    row-gap: 32px;
+    padding-bottom: 50px;
   }
 }
